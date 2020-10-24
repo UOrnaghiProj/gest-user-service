@@ -1,0 +1,8 @@
+/home/nicola/Documents/Java/Udemy/Spring Cloud/gestuser/src/main/java/com/xantrix/webapp/model/Utenti.java
+/home/nicola/Documents/Java/Udemy/Spring Cloud/gestuser/src/main/java/com/xantrix/webapp/repository/UtentiRepository.java
+/home/nicola/Documents/Java/Udemy/Spring Cloud/gestuser/src/main/java/com/xantrix/webapp/controller/UtentiController.java
+/home/nicola/Documents/Java/Udemy/Spring Cloud/gestuser/src/main/java/com/xantrix/webapp/security/SecurityConfiguration.java
+/home/nicola/Documents/Java/Udemy/Spring Cloud/gestuser/src/main/java/com/xantrix/webapp/service/UtentiServiceImpl.java
+/home/nicola/Documents/Java/Udemy/Spring Cloud/gestuser/src/main/java/com/xantrix/webapp/Application.java
+/home/nicola/Documents/Java/Udemy/Spring Cloud/gestuser/src/main/java/com/xantrix/webapp/security/AuthEntryPoint.java
+/home/nicola/Documents/Java/Udemy/Spring Cloud/gestuser/src/main/java/com/xantrix/webapp/service/UtentiService.java

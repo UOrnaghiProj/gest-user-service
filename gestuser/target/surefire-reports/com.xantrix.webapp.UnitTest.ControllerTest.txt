@@ -1,0 +1,20 @@
+-------------------------------------------------------------------------------
+Test set: com.xantrix.webapp.UnitTest.ControllerTest
+-------------------------------------------------------------------------------
+Tests run: 5, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 35.333 s <<< FAILURE! - in com.xantrix.webapp.UnitTest.ControllerTest
+A_testInsUtente(com.xantrix.webapp.UnitTest.ControllerTest)  Time elapsed: 3.13 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.dao.DuplicateKeyException: E11000 duplicate key error collection: ms-users.utenti index: userId dup key: { : "Mario" }; nested exception is com.mongodb.MongoWriteException: E11000 duplicate key error collection: ms-users.utenti index: userId dup key: { : "Mario" }
+	at com.xantrix.webapp.UnitTest.ControllerTest.A_testInsUtente(ControllerTest.java:58)
+Caused by: org.springframework.dao.DuplicateKeyException: E11000 duplicate key error collection: ms-users.utenti index: userId dup key: { : "Mario" }; nested exception is com.mongodb.MongoWriteException: E11000 duplicate key error collection: ms-users.utenti index: userId dup key: { : "Mario" }
+	at com.xantrix.webapp.UnitTest.ControllerTest.A_testInsUtente(ControllerTest.java:58)
+Caused by: com.mongodb.MongoWriteException: E11000 duplicate key error collection: ms-users.utenti index: userId dup key: { : "Mario" }
+	at com.xantrix.webapp.UnitTest.ControllerTest.A_testInsUtente(ControllerTest.java:58)
+
+D_testInsUtente(com.xantrix.webapp.UnitTest.ControllerTest)  Time elapsed: 0.495 s  <<< ERROR!
+org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.springframework.dao.DuplicateKeyException: E11000 duplicate key error collection: ms-users.utenti index: userId dup key: { : "Nicola" }; nested exception is com.mongodb.MongoWriteException: E11000 duplicate key error collection: ms-users.utenti index: userId dup key: { : "Nicola" }
+	at com.xantrix.webapp.UnitTest.ControllerTest.D_testInsUtente(ControllerTest.java:113)
+Caused by: org.springframework.dao.DuplicateKeyException: E11000 duplicate key error collection: ms-users.utenti index: userId dup key: { : "Nicola" }; nested exception is com.mongodb.MongoWriteException: E11000 duplicate key error collection: ms-users.utenti index: userId dup key: { : "Nicola" }
+	at com.xantrix.webapp.UnitTest.ControllerTest.D_testInsUtente(ControllerTest.java:113)
+Caused by: com.mongodb.MongoWriteException: E11000 duplicate key error collection: ms-users.utenti index: userId dup key: { : "Nicola" }
+	at com.xantrix.webapp.UnitTest.ControllerTest.D_testInsUtente(ControllerTest.java:113)
+

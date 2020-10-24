@@ -1,0 +1,8 @@
+com/xantrix/webapp/model/Utenti.class
+com/xantrix/webapp/Application.class
+com/xantrix/webapp/security/SecurityConfiguration.class
+com/xantrix/webapp/security/AuthEntryPoint.class
+com/xantrix/webapp/repository/UtentiRepository.class
+com/xantrix/webapp/controller/UtentiController.class
+com/xantrix/webapp/service/UtentiService.class
+com/xantrix/webapp/service/UtentiServiceImpl.class
