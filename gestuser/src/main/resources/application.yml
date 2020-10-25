@@ -17,4 +17,5 @@ spring:
       host: localhost
       password: password
       port: 37017
-      username: user
+      username: temp
+      uri: mongodb://localhost/ms-users
